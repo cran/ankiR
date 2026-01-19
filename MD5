@@ -1,12 +1,13 @@
-ce71c72864b2a748c5411dde4b3c6bb0 *DESCRIPTION
+635841cbc95da3d3c70a1bb9ef61bd8b *DESCRIPTION
 508acd8b2e455cb9b66c04a6bd8f6657 *LICENSE
-bcc0e5436ce0476e761b369215f468f1 *NAMESPACE
-4db9158ead7c4dec411cef04adef4077 *R/collection.R
+bebd3784b41093291c7fdd5b42476c15 *NAMESPACE
+9ef8e345ecdd12ae6812febf2aab933d *R/collection.R
 8382ddec61f5aa967fe91cdc98689c04 *R/paths.R
 36572b05c7195ea3839b36702d6381a4 *R/utils.R
-43b48588cb814cae350474d36d4ae9c0 *README.md
+3bfcbbfd0d9f551d7ef9a9014ca87ad6 *README.md
 ce0f91c881d58dbf34c639cfb54b2300 *man/anki_base_path.Rd
 0248d706ea61b9f8c0e15abcdbdf9fc0 *man/anki_cards.Rd
+ea27034678812a4590afc308f81c726c *man/anki_cards_fsrs.Rd
 ab93385917974b5e7cca4e0240f4b0d9 *man/anki_collection.Rd
 3fed77c3dec35e2d7920f7bc21b91261 *man/anki_db_path.Rd
 2c35f042a86fc2dff1ea35fc93ea40be *man/anki_notes.Rd
@@ -14,3 +15,4 @@ ab93385917974b5e7cca4e0240f4b0d9 *man/anki_collection.Rd
 c2bcc76945f4958a1584115395bce69c *man/anki_revlog.Rd
 35e651b30a833c8f1bc911daf1255733 *man/anki_timestamp_to_date.Rd
 3fd419466870e2e40ed03aad59322a20 *man/anki_timestamp_to_datetime.Rd
+f00d56751e4f6f53d735298c69a5bbb6 *man/fsrs_retrievability.Rd

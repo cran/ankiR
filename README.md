@@ -1,29 +1,34 @@
 # ankiR
 
-R package for reading Anki flashcard databases.
+[![R-CMD-check](https://github.com/chrislongros/ankiR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/chrislongros/ankiR/actions/workflows/R-CMD-check.yaml)
+
+R package for reading Anki flashcard databases with FSRS parameter support.
 
 ## Installation
 ```r
-# Install from GitHub
-remotes::install_github("clongros/ankiR")
+# From GitHub
+remotes::install_github("chrislongros/ankiR")
+
+# Arch Linux (AUR)
+# yay -S r-ankir
 ```
 
 ## Usage
 ```r
 library(ankiR)
 
-# List profiles
-anki_profiles()
+# Read collection
+col <- anki_read("collection.anki2")
 
-# Quick access
-notes <- anki_notes()
-cards <- anki_cards()
-reviews <- anki_revlog()
+# Get cards, decks, reviews
+cards <- anki_cards(col)
+decks <- anki_decks(col)
+reviews <- anki_reviews(col)
 
-# Or use collection object
-col <- anki_collection()
-col$notes()
-col$cards()
-col$revlog()
-col$close()
+# Extract FSRS parameters
+fsrs_params <- anki_fsrs_params(col)
 ```
+
+## License
+
+MIT © 2026
